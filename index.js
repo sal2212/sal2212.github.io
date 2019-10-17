@@ -1,16 +1,15 @@
 CLASSES = {
-  0: 'class0',
-  1: 'class1',
-  2: 'class2',
-  3: 'class3',
-  4: 'class4',
+  0: 'Life Force',
+  1: 'Bellerophon Taming Pegasus',
+  2: 'Alma Mater',
+  3: 'The Curl',
 };
 
 const MODEL_PATH =
     'model.json';
 
-const IMAGE_SIZE = 192;
-const TOPK_PREDICTIONS = 5;
+const IMAGE_SIZE = 128;
+const TOPK_PREDICTIONS = 4;
 
 let my_model;
 const demo = async () => {
